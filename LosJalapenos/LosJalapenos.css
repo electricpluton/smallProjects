@@ -1,0 +1,237 @@
+
+    *{
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+margin: 0;
+padding: 0;
+}
+
+/* Id entete Style */
+#entete{
+background-image: url('../images/Lettuce.png');
+background-size: cover;
+padding: 250px 450px 50px 200px;
+border-bottom: 5px solid wheat;
+}
+
+#entete h1{
+font-family: 'Russo one', serif;
+color: white;
+font-size: 50px;
+text-align: 50%;
+}
+
+#entete h4{
+font-family: 'Scheherazade New', serif;
+color: black;
+font-size: 50px;
+margin-bottom: 80px;
+
+}
+
+#entete a{
+font-family: 'Russo one', serif;
+background-color: green;
+color: black;
+font-size: 20px;
+padding: 14px;
+border-radius: 25px;
+text-decoration: none;
+}
+
+#entete a:hover{
+background-color: violet;
+text-shadow: rgb(255 255 255 / 0%) 0px 0px 0px;
+}
+
+/* Id nav Style */
+#nav{
+background-color: green;
+position: fixed;
+padding: 15px;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-right: 2x;
+border-bottom: 5px solid white;
+}
+
+#nav a{
+font-family: 'Roboto slab', serif;
+color: white;
+font-size: 15px;
+text-decoration: none;
+}
+
+#nav a:hover{
+color: purple;
+}
+
+#nav .links a{
+    font-size: 18px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+/* Id twentyweek Style */
+#twentyweeks{
+    color: white;
+    font-size: 35px;
+    background-image: url('../images/Tomatoes.png');
+    background-size: cover;
+    text-align: center;
+    text-shadow: violet;
+    padding-top: 201px;
+    padding-bottom: 132px;
+}
+
+#twentyweeks a{
+font-family: 'Russo One', sans-serif;
+color: black;
+font-size: 20px;
+padding: 14px;
+background-color: green;
+border-radius: 25px;
+text-decoration: none;
+}
+
+#twentyweeks a:hover{
+background-color: violet;
+text-shadow: rgb(255 255 255 / 0%) 0px 0px 0px;
+}
+
+/* Id whatinourboxes Style */
+#Boxes{
+background-color: #78BF98;
+padding: 100px;
+}
+
+#Boxes div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Boxes h2{
+text-align: center;
+font-size: 25px;
+font-family: 'Russo one', sans-serif;
+color: white;
+
+}
+
+#Boxes p{
+font-size: 20px;
+line-height: 35px;
+}
+
+#Boxes article{
+text-align: center;
+background-color: rgb(105 105 105 / 0.212);
+width:200%;
+padding: 10px;
+}
+
+#Boxes li{
+    list-style-type: none;
+    color: white;
+}
+
+#Boxes h3{
+font-family: 'Russo One', sans-serif;
+color: black;
+font-size: 20px;
+margin-top: 20px;
+}
+
+/* Id Wetakepride Style */
+#Produce{
+background-color: #78bf98;
+background-size: cover;
+text-align: center;
+border-bottom: 5px solid wheat;
+}
+
+#Produce div img{
+padding: 20px;
+padding-bottom: 20px;
+padding-left: auto;
+padding-right: auto;
+margin-left: 12em;
+}
+
+#Produce h2{
+font-family: 'Russo One', sans-serif;
+color: white;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 8px;
+}
+
+/* Id meetourfarmer Style */
+#Meetourfarmer{
+background-color: red;
+padding: 40px 25px;
+border-top: 5px solid white;
+border-bottom: 5px solid white;
+display: flex;
+justify-content: space-around;
+}
+
+.juan{
+    margin-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.farmtext{
+    width: 600px;
+    justify-content: center;
+}
+
+#Meetourfarmer h2{
+font-family: 'Russo One', sans-serif;
+color: white;
+text-align: center;
+}
+
+#Meetourfarmer div p{
+font-family: 'Roboto Slab', sans-serif;
+color: black;
+line-height: 45px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+/* Footer Style */
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-top: 5px solid white;
+}
+
+#footer a{
+ color: green;
+ text-decoration: none;
+}
+
+#footer a:hover{
+color: orchid;
+}
+
+#footer div a{
+color: green;
+font-size: 25px;
+padding-right: 5px;
+padding-left: 0.1em;
+}
+
+#footer p{
+color: green;
+font-size: 25px;
+}
